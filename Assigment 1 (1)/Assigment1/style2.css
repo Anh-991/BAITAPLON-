@@ -1,0 +1,34 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+   .column{
+    width: 100%;
+    float: left;
+    display: flex;
+}
+.san-pham{
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham img{
+    max-width: 100%;
+    box-shadow: 0 0 10px rgb(0, 60, 255);
+    border-radius: 20px;
+
+}
+.san-pham .ten{
+    color: yellow;
+}
+.san-pham .gia{
+    color:red;
+}
+.san-pham .gia>del{
+    color: lightsteelblue;
+}
+header>img{
+    width: 1200px;
+    height: 350px;
+    
+}

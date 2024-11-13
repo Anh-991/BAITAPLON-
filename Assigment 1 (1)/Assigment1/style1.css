@@ -1,0 +1,47 @@
+body{
+    width: 60%;
+    
+    margin: 0 auto;
+    background: linear-gradient(to right ,#4daf54 , #3d8880);
+}
+    
+    .column{
+        width: 25%;
+        float: left;
+        
+        
+    }
+    .san-pham{
+        border-radius: 10px;
+        box-shadow: 0 0 5px gray;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+        background-color: #272d40;
+        border-radius: 10px;
+        box-shadow: 0 0 5px green;
+    }
+    .san-pham .ten{
+        font-size: larger;
+        font-variant: small-caps;
+        color: #4daf54;
+    }
+    .san-pham img{
+        max-width: 95%;
+        
+    }
+    .san-pham:hover{
+        
+        box-shadow: 0 0 20px yellow;
+        background-color: mediumspringgreen;
+        
+    }
+    .column:hover .san-pham .ten{
+        color: red;
+    }
+    header>img{
+        width: 100%;
+        height: 422px;
+    }
+    
+    
